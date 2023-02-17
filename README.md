@@ -1,0 +1,1 @@
+Wellness Tracker is a CRUD app created with React Hooks, NodeJS, Express, Material UI, ChartJS, and SASS.

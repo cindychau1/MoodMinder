@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1b1813;
+    margin: 0;
+}
+
+body {
+    padding: 10px 30px;
+}
+
+.material-icons {
+    transform: scale(2.5);
+}
+
+.app {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.dateContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.moodContainer {
+    flex: 1;
+    background-color: white;
+    padding: 0 30px;
+}
+
+.journalContainer {
+    flex: 1;
+    background-color: white;
+}
+
+.react-datepicker-wrapper {
+    margin-top: 25px;
+}
+
+.moodChart {
+    padding: 30px 0;
+}
+
+.LogoutBtn {
+    position: absolute;
+    top: 90%;
+    right: 5%;
+}
+
+
+
+
